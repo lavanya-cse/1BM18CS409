@@ -1,0 +1,17 @@
+def search(lis,k):
+    print(lis)
+    if k in lis:
+        return True
+    else:
+        return False
+
+lis=[]
+while True:
+    a=int(input("enter the element"))
+    if a!=-1:
+        lis.append(a)
+    else:
+        break
+key=int(input("enter the key"))
+print(search(lis,key))
+
