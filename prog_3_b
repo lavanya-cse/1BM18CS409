@@ -1,0 +1,10 @@
+import random
+import string
+
+n=string.printable
+leng=random.randint(8,10)
+a="".join(random.sample(n,leng))
+print(a)
+
+    
+
